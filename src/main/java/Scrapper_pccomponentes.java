@@ -44,7 +44,6 @@ public class Scrapper_pccomponentes {
                 nombresPrecios[i] = precio;
                 i++;
 
-                System.out.println(titulo+"\n"+precio+"\n\n");
 
 
                 // Con el método "text()" obtengo el contenido que hay dentro de las etiquetas HTML

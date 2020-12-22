@@ -21,7 +21,6 @@ public class Csv_generator {
         ){
             csvWriter.writeNext(titulocol);
             int i = 0;
-            System.out.println(nombresPrecios.length);
             while (nombresPrecios[i]!= null) {
                 csvWriter.writeNext(new String[]{nombresPrecios[i], nombresPrecios[i + 1]});
                 i += 2;
